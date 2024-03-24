@@ -29,19 +29,14 @@ function toggleTurns() {
 }
 
 function setup() {
-    // createCanvas(windowWidth, windowHeight);
     frameRate(4);
     currentPlayer = player1;
     initBoard();
-
-    var cnv = createCanvas(400, 400);
-    var x = (windowWidth - width) / 2;
-    var y = (windowHeight - height) / 2;
-    cnv.position(x, y);
+    createCanvas(windowWidth, windowHeight-200);
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    resizeCanvas(windowWidth, windowHeight-200);
 }
 
 function nextTurn() {
