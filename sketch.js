@@ -152,10 +152,9 @@ function draw() {
             for (let j = 0; j < board[i].length; j++) {
                 let x = i * w + w / 2;
                 let y = j * h + h / 2;
-                let xr = w / 4;
+                let xr = w / 8;
                 let spot = board[i][j];
                 if (spot == 'X') {
-
                     line(x - xr, y - xr, x + xr, y + xr);
                     line(x - xr, y + xr, x + xr, y - xr);
                 }
