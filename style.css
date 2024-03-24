@@ -1,0 +1,32 @@
+.display-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-green {
+    color: #26a69a;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.border-green {
+    border-radius: 3px;
+    border: solid 1px #26a69a;
+}
